@@ -1,3 +1,4 @@
+/* id Selector */
 #stage {
   background-color: rgb(237, 109, 109);
   color: aqua;
@@ -10,7 +11,21 @@ p {
   background-color: rgb(175, 209, 239);
   color: rgb(25, 170, 170);
 }
+/* class selector */
 .first {
   background-color: rgb(209, 177, 239);
   color: blueviolet;
+}
+/* group selector */
+
+h2,
+h3,
+p {
+  background-color: rgb(156, 242, 242);
+  color: rgb(26, 132, 224);
+}
+/* Universal Selector */
+* {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
