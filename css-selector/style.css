@@ -1,0 +1,16 @@
+#stage {
+  background-color: rgb(237, 109, 109);
+  color: aqua;
+}
+h1 {
+  background-color: blue;
+  color: aliceblue;
+}
+p {
+  background-color: rgb(175, 209, 239);
+  color: rgb(25, 170, 170);
+}
+.first {
+  background-color: rgb(209, 177, 239);
+  color: blueviolet;
+}
