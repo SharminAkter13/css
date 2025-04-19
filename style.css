@@ -1,0 +1,17 @@
+p {
+  background-color: rgb(176, 245, 251);
+  color: rgb(86, 10, 157);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+h1 {
+  color: aliceblue;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 20pt;
+  text-align: center;
+}
+body {
+  background-color: rgb(207, 181, 231);
+}
