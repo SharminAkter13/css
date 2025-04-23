@@ -1,0 +1,43 @@
+.margin {
+  background-color: rgb(142, 235, 238);
+  width: 400px;
+  height: 300px;
+  border: 3px dashed blueviolet;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
+
+.border {
+  background-color: rgb(18, 226, 233);
+  width: 300px;
+  height: 200px;
+  border: 5px double blueviolet;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
+
+.padding {
+  background-color: rgb(147, 229, 243);
+  width: 200px;
+  height: 100px;
+  border: 5px ridge rgb(182, 138, 223);
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
+
+.content {
+  background-color: rgb(240, 248, 248);
+  width: 100px;
+
+  border: 3px dotted blueviolet;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  padding: 20px;
+}
