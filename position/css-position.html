@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .static {
+        top: 20px;
+        border: 3px solid blueviolet;
+        width: 500px;
+        height: 200px;
+      }
+      .relative {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        border: 3px solid blueviolet;
+        width: 400px;
+        height: 400px;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 80px;
+        left: 45px;
+        border: 3px solid blueviolet;
+        width: 300px;
+        height: 200px;
+      }
+      .fixed {
+        position: sticky;
+        top: 0;
+        border: 3px solid blueviolet;
+        width: 100%;
+        height: 20px;
+        background-color: rgb(183, 175, 236);
+        margin: 0;
+      }
+
+      .sticky {
+        position: fixed;
+        border: 3px solid blueviolet;
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixed">
+      Home &nbsp;&nbsp;&nbsp;&nbsp; About&nbsp;&nbsp;&nbsp;&nbsp; Contact
+    </div>
+    <br />
+    <div class="static">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+      blanditiis |||, distinctio unde, commodi aut aliquam rem iusto doloribus
+      accusantium necessitatibus. Illum exercitationem eos sequi ex tenetur ut
+      doloribus at? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Adipisci blanditiis molestiae, distinctio unde, commodi aut aliquam rem
+      iusto doloribus accusantium necessitatibus. Illum exercitationem eos sequi
+      ex tenetur ut doloribus at?
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="relative">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+      blanditiis molestiae, distinctio unde, commodi aut aliquam rem iusto
+      doloribus accusantium necessitatibus. Illum exercitationem eos sequi ex
+      tenetur ut doloribus at?
+
+      <div class="absolute">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        blanditiis molestiae, distinctio unde, commodi aut aliquam rem iusto
+        doloribus accusantium necessitatibus. Illum exercitationem eos sequi ex
+        tenetur ut doloribus at? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Adipisci blanditiis molestiae, distinctio unde,
+        commodi aut aliquam rem iusto doloribus accusantium necessitatibus.
+        Illum exercitationem eos sequi ex tenetur ut doloribus at?
+      </div>
+    </div>
+    <br /><br />
+
+    <br />
+    <div class="sticky">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+      blanditiis molestiae, distinctio unde, commodi aut aliquam rem iusto
+      doloribus accusantium necessitatibus. Illum exercitationem eos sequi ex
+      tenetur ut doloribus at? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Adipisci blanditiis molestiae, distinctio unde, commodi
+      aut aliquam rem iusto doloribus accusantium necessitatibus. Illum
+      exercitationem eos sequi ex tenetur ut doloribus at?
+    </div>
+  </body>
+</html>
